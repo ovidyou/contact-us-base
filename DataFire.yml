@@ -14,3 +14,10 @@ paths:
     post:
       action: contact_me
       accounts: {}
+tests:
+  test:
+    action: google_gmail/users.getProfile
+    input:
+      userId: me
+    accounts:
+      google_gmail: google_gmail1
